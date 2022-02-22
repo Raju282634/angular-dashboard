@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class DefaultComponent implements OnInit {
   static children: any;
 
-  constructor() { }
+  sideBarOpen = true;
 
-  ngOnInit(): void {
+  constructor() {}
+  ngOnInit(): void {}
+
+  sideBarToggler(){
+    this.sideBarOpen = !this.sideBarOpen;
   }
-
 }
