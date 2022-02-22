@@ -1,18 +1,24 @@
 <div>
   <app-area-widget></app-area-widget>
 </div>
+<br>
 
 <mat-divider></mat-divider>
+<br>
 
-<div>
-  <div>Line Charts</div>
-  <div>Line Charts</div>
-  <div>Line Charts</div>
-  <div>Line Charts</div>
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-cards">
+  <mat-card fxFlex="25"> <app-card-widget></app-card-widget> </mat-card>
+  <mat-card fxFlex="25"> <app-card-widget></app-card-widget> </mat-card>
+  <mat-card fxFlex="25"> <app-card-widget></app-card-widget> </mat-card>
+  <mat-card fxFlex="25"> <app-card-widget></app-card-widget> </mat-card>
 </div>
+<br>
 <mat-divider></mat-divider>
-
+<br>
 <div>
-  <div>Table Charts</div>
+  <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="30px" class="stats-cards">
+    <mat-card fxFlex="50"> <app-table-widget></app-table-widget> </mat-card>
+    <mat-card fxFlex="50"> <app-table-widget></app-table-widget> </mat-card>
+  </div>
   <div>Pie Charts</div>
 </div>
